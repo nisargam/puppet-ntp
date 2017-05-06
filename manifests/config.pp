@@ -4,7 +4,7 @@ class ntp::config (
  Array[String] $servers = $ntp::servers,
 
 ){ 
-
+  #change
   file { "/etc/$config_name":
     ensure  => file,
     owner   => 0,

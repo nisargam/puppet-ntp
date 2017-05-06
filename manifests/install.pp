@@ -3,7 +3,8 @@ class ntp::install(
  String $package_ensure = $ntp::package_ensure,
 )
 {
-package { $package_name:
+  #change
+  package { $package_name:
   ensure => $package_ensure,
  }
 

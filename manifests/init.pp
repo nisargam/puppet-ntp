@@ -11,7 +11,7 @@ Boolean $service_hasrestart = $ntp::params::service_hasrestart,
 Boolean $service_hasstatus = $ntp::params::service_hasstatus,
 String $service_name = $ntp::params::service_name,
 
-
+#change
 
 ) inherits ::ntp::params
   {

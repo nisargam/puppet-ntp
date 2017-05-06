@@ -1,4 +1,5 @@
 class ntp::params {
+  #change
 
  $package_name = 'ntp'
  $package_ensure = 'present'

@@ -12,7 +12,7 @@ class ntp::service (
     name       => $service_name,
     hasstatus  => $service_hasstatus,
     hasrestart => $service_hasrestart
- 
+    #change 
   }
 
 }
